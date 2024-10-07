@@ -1,3 +1,7 @@
+<?php   
+include "verificar_login.php";
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -10,6 +14,8 @@
     <a href="pg_cadastro_estudante.php">Cadastrar estudantes</a>
     <br><br>
     <a href="pg_gerenciar_estudante.php">Gerenciar estudantes</a>
+    <br><br>
+    <a href="logout.php">Logout</a>
     
 </body>
 </html>

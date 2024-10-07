@@ -1,5 +1,6 @@
 <?php
 include "conexao.php";
+include "verificar_login.php";
 // guardar os dados recebidos
 $mat= $_POST['matricula'];
 $nome = $_POST['nome_estudante'];

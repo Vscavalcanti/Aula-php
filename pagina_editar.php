@@ -1,5 +1,6 @@
 <?php
 include "conexao.php";
+include "verificar_login.php";
 
 $matricula = $_GET['cod'];
 
@@ -21,7 +22,6 @@ try{
 
     echo "Falha ao consultar!" . $erro->getMessage();
 }
-
 
 
 ?>
